@@ -23,3 +23,11 @@ A hybrid AI system that combines a deterministic workflow backbone with a bounde
 ->Adaptive posting time logic
 
 This project demonstrates system design thinking by separating deterministic control logic from probabilistic AI-driven decision-making.
+
+## Getting Started
+
+1. Copy `config.example.py` to `config.py` and fill in your OpenRouter key, LinkedIn access token, and member ID.
+2. Install requirements: `pip install -r requirements.txt`.
+3. Run `python main.py` to start the scheduler; it will automatically generate and post to LinkedIn at the optimal hour.
+
+Configuration and logs are printed to the console, and all post data is stored in `database/posts.db` for analysis.
